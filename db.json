@@ -1,0 +1,247 @@
+{
+  "rice": [
+    {
+      "id": 1,
+      "name": "Mexican Rice",
+      "description": "This is a luscious dessert crafted from short-grain white rice, slowly cooked in creamy whole milk.",
+      "image": "https://foodish-api.com/images/rice/rice9.jpg",
+      "price": "$5.99"
+    },
+    {
+      "id": 2,
+      "name": "Spanish rice",
+      "description": "This is a delightful dish crafted from long-grain white rice, gently sautéed with aromatic onions and garlic, then simmered in a tantalizing blend of tomatoes and savory chicken or vegetable broth.",
+      "image": "https://foodish-api.com/images/rice/rice24.jpg",
+      "price": "$4.99"
+    },
+    {
+      "id": 3,
+      "name": "Coconut Rice",
+      "description": "This is a tropical and aromatic dish made from long-grain white rice, gently cooked in rich and creamy coconut milk.",
+      "image": "https://content.fun-japan.jp/renewal-prod/cms/articles/content/4f1245218cff6cdd50cdab7612bb13675c2b2f7a.jpg",
+      "price": "$6.49"
+    },
+    {
+      "id": 4,
+      "name": "Italian Biryani",
+      "description": " This is made from long-grain white rice sautéed with onions and garlic, then cooked with tomatoes, chicken or vegetable broth, and seasoned with spices such as cumin, chili powder, and sometimes saffron or annatto.",
+      "image": "https://foodish-api.com/images/rice/rice33.jpg",
+      "price": "$7.99"
+    },
+    {
+      "id": 5,
+      "name": "Chicken Biryani",
+      "description": "This is a sumptuous dish crafted from long-grain basmati rice, marinated chicken pieces, and a medley of aromatic spices.",
+      "image": "https://foodish-api.com/images/rice/rice1.jpg",
+      "price": "$8.49"
+    },
+    {
+      "id": 6,
+      "name": "Fish Biryani",
+      "description": " This is a delectable dish crafted from long-grain basmati rice and tender pieces of marinated fish.",
+      "image": "https://foodish-api.com/images/rice/rice6.jpg",
+      "price": "$9.99"
+    }
+  ],
+  "Pizza": [
+    {
+      "id": 1,
+      "name": "Neapolitan Pizza",
+      "description": "This is a delightful dish crafted from a thin-crust base made of high-quality wheat flour, kneaded with fresh yeast and water.",
+      "image": "https://foodish-api.com/images/pizza/pizza37.jpg",
+      "price": "$10.99"
+    },
+    {
+      "id": 2,
+      "name": "Margherita Pizza",
+      "description": " This is a delightful dish crafted from a thin-crust base made of high-quality wheat flour, topped with a harmonious trio of fresh ingredients.",
+      "image": "https://foodish-api.com/images/pizza/pizza29.jpg",
+      "price": "$9.99"
+    },
+    {
+      "id": 3,
+      "name": "Pepperoni Pizza",
+      "description": "The pizza is generously topped with a rich tomato sauce, stretchy mozzarella cheese, and spicy slices of pepperoni.",
+      "image": "https://foodish-api.com/images/pizza/pizza45.jpg",
+      "price": "$11.49"
+    },
+    {
+      "id": 4,
+      "name": "Sicilian Pizza",
+      "description": "This is a delightful dish crafted from a thick and fluffy focaccia-like crust, generously topped with a vibrant blend of tomatoes, mozzarella cheese, and a variety of savory toppings.",
+      "image": "https://foodish-api.com/images/pizza/pizza18.jpg",
+      "price": "$12.99"
+    }
+  ],
+  "ugali": [
+    {
+      "id": 1,
+      "name": "Ugali and Chicken",
+      "description": " This is a delightful dish crafted from maize flour and served with tender pieces of chicken stewed in a rich and aromatic tomato-based sauce.",
+      "image": "https://pbs.twimg.com/media/EVttJj_X0AEWo7z.jpg",
+      "price": "$6.99"
+    },
+    {
+      "id": 2,
+      "name": "Ugali and Fish",
+      "description": "This is a delightful dish crafted from maize flour and served with a flavorful fish stew or grilled fish.",
+      "image": "https://i.pinimg.com/736x/b4/53/1d/b4531d9b36d23a26fcfd3bda85f71bd9.jpg",
+      "price": "$7.49"
+    },
+    {
+      "id": 3,
+      "name": "Ugali and Spinach",
+      "description": "This is a delightful dish crafted from maize flour and served with sautéed spinach flavored with garlic, onions, and tomatoes.",
+      "image": "https://img-global.cpcdn.com/recipes/63d49afe5a7c913a/680x482cq70/ugali-beef-spinach-recipe-main-photo.jpg",
+      "price": "$5.99"
+    },
+    {
+      "id": 4,
+      "name": "Ugali and Matumbo",
+      "description": " This is a delightful dish crafted from maize flour and served with tender pieces of tripe cooked in a rich and spicy gravy.",
+      "image": "https://img-global.cpcdn.com/recipes/853a226007d5aff5/1200x630cq70/photo.jpg",
+      "price": "$7.99"
+    },
+    {
+      "id": 5,
+      "name": "Ugali and Beef",
+      "description": "This is a delightful dish crafted from maize flour and served with succulent pieces of beef cooked in a savory and spicy gravy.",
+      "image": "https://pbs.twimg.com/media/CEj2IFxW0AExcx8.jpg",
+      "price": "$8.49"
+    }
+  ],
+  "stew": [
+    {
+      "id": 1,
+      "name": "Beef Stew",
+      "description": "A classic dish made with chunks of beef, carrots, potatoes, and onions, simmered in a rich and flavorful broth often seasoned with herbs like thyme and bay leaves.",
+      "image": "https://www.cookingclassy.com/wp-content/uploads/2021/10/beef-stew-30-500x375.jpg",
+      "price": "$12.99"
+    },
+    {
+      "id": 2,
+      "name": "Chicken Stew",
+      "description": "This stew features tender pieces of chicken cooked with vegetables such as carrots, celery, and potatoes, in a savory broth seasoned with herbs and spices.",
+      "image": "https://www.smokingchimney.com/recipe-pages/images/4x3/chicken-stew.jpg",
+      "price": "$10.99"
+    },
+    {
+      "id": 3,
+      "name": "Fish Stew",
+      "description": "A French seafood stew made with a variety of fish and shellfish, cooked with tomatoes, onions, garlic, and herbs, often served with crusty bread.",
+      "image": "https://www.africanbites.com/wp-content/uploads/2022/03/A-Bowl-of-Fish-Stew-Served-with-White-Rice.jpg",
+      "price": "$14.49"
+    }
+  ],
+  "Pasta": [
+    {
+      "id": 1,
+      "name": "Spaghetti Pasta",
+      "description": "This is a delightful dish crafted from long, thin cylindrical strands of pasta, cooked to al dente perfection.",
+      "image": "https://foodish-api.com/images/pasta/pasta9.jpg",
+      "price": "$9.99"
+    },
+    {
+      "id": 2,
+      "name": "Macaroni Pasta",
+      "description": " This is a delightful dish crafted from short, curved tubes of pasta, offering a comforting and familiar shape.",
+      "image": "https://foodish-api.com/images/pasta/pasta3.jpg",
+      "price": "$8.49"
+    },
+    {
+      "id": 3,
+      "name": "Tortellini Pasta",
+      "description": " This is a delightful dish crafted from small, ring-shaped pasta pockets, traditionally filled with a mixture of meat, cheese, or vegetables.",
+      "image": "https://foodish-api.com/images/pasta/pasta30.jpg",
+      "price": "$11.99"
+    },
+    {
+      "id": 4,
+      "name": "Fettuccine Pasta",
+      "description": " This is a delightful dish crafted from flat, wide noodles of pasta, providing a satisfying bite and a generous surface area to hold rich sauces.",
+      "image": "https://foodish-api.com/images/pasta/pasta23.jpg",
+      "price": "$10.99"
+    }
+  ],
+  "variety": [
+    {
+      "id": 1,
+      "name": "Chips Masala",
+      "description": "This is a delightful snack crafted from thin slices of potato, deep-fried until crispy and seasoned with a spicy and tangy masala mix.",
+      "image": "https://khinskitchen.com/wp-content/uploads/2021/09/masala-chips-7.jpg",
+      "price": "$4.99"
+    },
+    {
+      "id": 2,
+      "name": "Samosa",
+      "description": "This is a delightful pastry crafted from a crispy and flaky dough, filled with a savory mixture of meat and lentils.",
+      "image": "https://foodish-api.com/images/samosa/samosa7.jpg",
+      "price": "$3.99"
+    },
+    {
+      "id": 3,
+      "name": "Sausage",
+      "description": "The meat is seasoned with a blend of herbs and spices such as garlic, fennel, paprika, and pepper, enhancing its flavor and adding depth to the dish.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGDUTVEFXSwwZ1T04GSt-wuqh-5wNAq1T6qqFF_SjixA&s",
+      "price": "$5.49"
+    },
+    {
+      "id": 4,
+      "name": "Smokie",
+      "description": "The smokie is smoked to infuse it with a rich and smoky flavor, enhancing its savory profile.",
+      "image": "https://farmerschoice.co.ke/wp-content/uploads/2020/09/smokie_500x500.jpg",
+      "price": "$6.99"
+    },
+    {
+      "id": 5,
+      "name": "Chapati",
+      "description": "It is dish cooked on a hot griddle or skillet until it puffs up and develops a golden-brown crust.",
+      "image": "https://bigoven-res.cloudinary.com/image/upload/t_recipe-1280/kenyan-soft-layered-chapati-79b30c5a09b4ac324db4637a.jpg",
+      "price": "$2.99"
+    }
+  ],
+  "Drinks": [
+    {
+      "id": 1,
+      "name": "Coffee",
+      "description": "This is a beverage brewed from roasted coffee beans. Darkly colored, bitter, and slightly acidic.",
+      "image": "https://t4.ftcdn.net/jpg/01/16/61/93/360_F_116619399_YA611bKNOW35ffK0OiyuaOcjAgXgKBui.jpg",
+      "price": "$3.49"
+    },
+    {
+      "id": 2,
+      "name": "Smoothies",
+      "description": " This is a thick, creamy beverages usually blended from puréed fruits, vegetables, juices, yogurt, nuts, seeds, and/or dairy or nondairy milk.",
+      "image": "https://detoxinista.com/wp-content/uploads/2023/07/strawberry-mango-smoothie-in-glass.jpg",
+      "price": "$5.99"
+    },
+    {
+      "id": 3,
+      "name": "Milkshakes",
+      "description": "This is a sweet beverage made by blending milk, ice cream, and flavorings or sweeteners.",
+      "image": "https://jordanseasyentertaining.com/wp-content/uploads/2023/03/cookies-and-cream-milkshake-made-with-oreo-cookies-in-the-Pampered-Chef-Deluxe-Cooking-Blender5-735x1103.jpg",
+      "price": "$4.99"
+    },
+    {
+      "id": 4,
+      "name": "Mango Juice",
+      "description": " This is a juice made from blended mango fruit with added flavours.",
+      "image": "https://www.vegrecipesofindia.com/wp-content/uploads/2021/04/mango-juice-2.jpg",
+      "price": "$3.99"
+    },
+    {
+      "id": 5,
+      "name": "Pineapple Juice",
+      "description": " This is a juice made from pressing the natural liquid out from the pulp of the pineapple",
+      "image": "https://cdn.healthyrecipes101.com/recipes/images/juices/easy-apple-cider-vinegar-pineapple-juice-recipe-cli9pnkwd001drc1b7bkba7zy.jpg?w=1080&q=80",
+      "price": "$4.49"
+    },
+    {
+      "id": 6,
+      "name": "Orange Juice",
+      "description": "This is a liquid extract of the orange tree fruit, produced by squeezing or reaming oranges",
+      "image": "https://draxe.com/wp-content/uploads/2022/12/DrAxeOrangeJuiceThumbnail.jpg",
+      "price": "$3.99"
+    }
+  ]
+}

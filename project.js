@@ -140,4 +140,15 @@ function displayDrinks(drinks, containerId) {
 // Function to add item to basket
 function addToBasket(item) {
   alert(`You have selected: ${item.name}`); // Display an alert with the selected item name
+}/* The DELETE metheod that delete items from the  server*/
+// Function to remove item from basket
+function removeFromBasket(type, id) {
+  return fetch(`http://localhost:3000/${type}/${id}`, {
+    method: "DELETE",
+  })
+    .then((res) => res.json())
+    .then((data) => console.log(data))
+    .catch((error) => {
+      console.log(error);
+    });
 }

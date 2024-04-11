@@ -212,3 +212,43 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 });
+function updateInformation() {
+  const name = document.getElementById("updateName").value;
+  const price = document.getElementById("updatePrice").value;
+  const description = document.getElementById("updateDescription").value;
+
+  const data = {
+    name: name,
+    price: price,
+    description: description,
+  };
+  /*The POST method that update information to the server*/
+  fetch("http://localhost:3000/update", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify(data),
+  })
+    .then((response) => response.json())
+    .then((data) => {
+      console.log(data);
+    })
+    .catch((error) => {
+      console.error(error);
+    });
+}
+function toggleForm() {
+  const form = document.getElementById("updateForm");
+  if (form.style.display === "none" || form.style.display === "") {
+    form.style.display = "block";
+  } else {
+    form.style.display = "none";
+  }
+}
+/*Section of Feedback*/
+document
+  .getElementById("submitFeedback")
+  .addEventListener("click", function () {
+    alert("Submitted Successful!");
+  });

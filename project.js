@@ -137,3 +137,7 @@ function displayDrinks(drinks, containerId) {
     container.appendChild(drinkDiv);
   });
 }
+// Function to add item to basket
+function addToBasket(item) {
+  alert(`You have selected: ${item.name}`); // Display an alert with the selected item name
+}

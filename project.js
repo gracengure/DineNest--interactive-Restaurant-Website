@@ -193,3 +193,22 @@ function filterByFoodType(type) {
     });
   });
 }
+// Initialize audio and button functionality
+document.addEventListener("DOMContentLoaded", function () {
+  const audio = document.querySelector("audio"); // Select the audio element
+  const playButton = document.getElementById("playAudioButton"); // Select the "Play Audio" button
+
+  // Add click event listener to the "Play Audio" button
+  playButton.addEventListener("click", function () {
+    if (audio.paused) {
+      // If audio is paused, play it
+      audio.play();
+      playButton.textContent = "Pause Audio"; // Change button text to "Pause Audio"
+    } else {
+      // If audio is playing, pause it
+      audio.pause();
+      audio.currentTime = 0; // Reset audio to the beginning
+      playButton.textContent = "Play Audio"; // Change button text to "Play Audio"
+    }
+  });
+});

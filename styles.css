@@ -42,3 +42,29 @@ ul li a {
   animation-iteration-count: infinite;
 }
 
+/* Button styles */
+#button {
+  float: right;
+  padding: 10px;
+  background-color: lime;
+}
+
+
+#playAudioButton,
+.feedback-form button ,#between {
+  border: none;
+  background-color: black;
+  animation-duration: 2s;
+  animation-name: key;
+  animation-iteration-count: infinite;
+}
+
+#filter-button,
+#submitFeedback {
+  background-color: #007BFF;
+  color: #ffffff;
+  padding: 5px;
+  border: none;
+    cursor: pointer;
+  font-size: 15px;
+}

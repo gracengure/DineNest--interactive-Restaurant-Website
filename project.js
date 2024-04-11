@@ -93,3 +93,47 @@ function displayDishes(dishes, containerId) {
 
     container.appendChild(dishDiv); // Append the dish div to the container
   });}
+  // Display drinks in the specified container
+function displayDrinks(drinks, containerId) {
+  const container = document.getElementById(containerId);
+
+  drinks.forEach((drink) => {
+    const drinkDiv = document.createElement("div");
+    drinkDiv.className = "item";
+
+    // Create and append elements for drink name, image, description, price, and buttons
+    const nameElement = document.createElement("h3");
+    nameElement.textContent = drink.name;
+    drinkDiv.appendChild(nameElement);
+
+    const imageElement = document.createElement("img");
+    imageElement.src = drink.image;
+    imageElement.alt = drink.name;
+    drinkDiv.appendChild(imageElement);
+
+    const descriptionElement = document.createElement("p");
+    descriptionElement.className = "description";
+    descriptionElement.textContent = drink.description;
+    drinkDiv.appendChild(descriptionElement);
+
+    const priceElement = document.createElement("h4");
+    priceElement.textContent = drink.price;
+    drinkDiv.appendChild(priceElement);
+
+    const addButton = document.createElement("button");
+    addButton.textContent = "Add to Basket";
+    addButton.addEventListener("click", function () {
+      addToBasket(drink);
+    });
+    drinkDiv.appendChild(addButton);
+    const removeButton = document.createElement("button");
+    removeButton.textContent = "Remove";
+    removeButton.style.marginLeft = "10px";
+    removeButton.addEventListener("click", function () {
+      removeFromBasket("Drinks", drink.id);
+    });
+    drinkDiv.appendChild(removeButton);
+
+    container.appendChild(drinkDiv);
+  });
+}

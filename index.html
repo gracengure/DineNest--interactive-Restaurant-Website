@@ -137,4 +137,113 @@
 
 
             </div>
+    </section><section class="feedback" id="back">
+        <h2>Feedback</h2>
+        <div class="content">
+            <div class="intro">
+                <p>Dear valued guest,</p>
+                <p>We hope you had a delightful experience dining with us at DineNest Restaurant. Your satisfaction is
+                    our utmost priority, and we genuinely appreciate the trust you place in us.</p>
+                <p>If you could spare a moment, we would be deeply grateful to hear your thoughts and feedback about
+                    your visit. Your insights are invaluable to us as we continuously strive to enhance our offerings
+                    and service.</p>
+                <p>Please feel free to share your feedback by filling out our feedback form.</p>
+            </div>
+
+            <form class="feedback-form">
+                <label for="fullName">Full Name:</label>
+                <input type="text" id="fullName" name="fullName" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="table">Table number:</label>
+                <input type="text" id="table" required>
+
+                <label for="servicesRating">Rate our Services:</label>
+                <select id="servicesRating" name="servicesRating" required>
+                    <option value="" disabled selected>Select rating</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+
+                <label for="foodQualityRating">Rate Food Quality:</label>
+                <select id="foodQualityRating" name="foodQualityRating" required>
+                    <option value="" disabled selected>Select rating</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+
+                <label for="cleanlinessRating">Rate Cleanliness:</label>
+                <select id="cleanlinessRating" name="cleanlinessRating" required>
+                    <option value="" disabled selected>Select rating</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+
+                <fieldset>
+                    <legend>How would you rate your overall experience?</legend>
+                    <input type="radio" id="excellent" name="overallRating" value="excellent" required>
+                    <label for="excellent">Excellent</label>
+
+                    <input type="radio" id="good" name="overallRating" value="good">
+                    <label for="good">Good</label>
+
+                    <input type="radio" id="average" name="overallRating" value="average">
+                    <label for="average">Average</label>
+
+                    <input type="radio" id="poor" name="overallRating" value="poor">
+                    <label for="poor">Poor</label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>How often do you visit our restaurant?</legend>
+                    <input type="radio" id="firstTime" name="visitFrequency" value="firstTime" required>
+                    <label for="firstTime">First Time</label>
+                    <input type="radio" id="daily" name="visitFrequency" value="daily">
+                    <label for="daily">Daily</label>
+
+                    <input type="radio" id="weekly" name="visitFrequency" value="weekly">
+                    <label for="weekly">Weekly</label>
+
+                    <input type="radio" id="monthly" name="visitFrequency" value="monthly">
+                    <label for="monthly">Monthly</label>
+                </fieldset>
+
+                <label for="comments">Please share your comments or suggestions:</label>
+                <textarea id="comments" name="comments" rows="4" required></textarea>
+
+                <fieldset>
+                    <legend>Would you recommend us to others?</legend>
+                    <input type="radio" id="yesRecommend" name="recommend" value="yes" required>
+                    <label for="yesRecommend">Yes</label>
+
+                    <input type="radio" id="noRecommend" name="recommend" value="no">
+                    <label for="noRecommend">No</label>
+                </fieldset>
+
+                <button id="submitFeedback">Submit</button>
+                <p id="result"></p>
+            </form>
+
+            <div class="outro">
+                <p>Thank you for allowing us the opportunity to serve you, and we look forward to welcoming you back
+                    soon.</p>
+                <p>Warm regards,<br>The DineNest Restaurant Manager.</p>
+            </div>
+        </div>
     </section>
+
+    <script src="project.js"></script>
+</body>
+
+</html>

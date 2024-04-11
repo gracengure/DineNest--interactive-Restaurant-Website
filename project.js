@@ -43,3 +43,53 @@ fetch("http://localhost:3000/Drinks")
   .then((drinksData) => {
     displayDrinks(drinksData, "drinks-container");
   });
+// Display dishes in the specified container
+function displayDishes(dishes, containerId) {
+  const container = document.getElementById(containerId); // Get the container element
+
+  dishes.forEach((dish) => {
+    // Iterate over each dish
+    const dishDiv = document.createElement("div"); // Create a div for the dish
+    dishDiv.className = "item"; // Add a class to the div
+
+    // Create and append elements for dish name, image, description, price, and buttons
+    const nameElement = document.createElement("h3");
+    nameElement.textContent = dish.name; // Set dish name
+    dishDiv.appendChild(nameElement);
+
+    const imageElement = document.createElement("img");
+    imageElement.src = dish.image;
+    imageElement.alt = dish.name;
+    dishDiv.appendChild(imageElement);
+
+    const descriptionElement = document.createElement("p");
+    descriptionElement.className = "description";
+    descriptionElement.textContent = dish.description;
+    dishDiv.appendChild(descriptionElement);
+
+    const priceElement = document.createElement("h4");
+    priceElement.textContent = dish.price;
+    dishDiv.appendChild(priceElement);
+
+    const addButton = document.createElement("button");
+    addButton.textContent = "Add to Basket";
+    addButton.addEventListener("click", function () {
+      addToBasket(dish);
+    });
+    dishDiv.appendChild(addButton);
+
+    const removeButton = document.createElement("button");
+    removeButton.textContent = "Remove";
+    removeButton.style.marginLeft = "10px";
+    removeButton.addEventListener("click", function () {
+      removeFromBasket("ugali", dish.id);
+      removeFromBasket("pizza", dish.id);
+      removeFromBasket("variety", dish.id);
+      removeFromBasket("rice", dish.id);
+      removeFromBasket("stew", dish.id);
+    });
+
+    dishDiv.appendChild(removeButton);
+
+    container.appendChild(dishDiv); // Append the dish div to the container
+  });}

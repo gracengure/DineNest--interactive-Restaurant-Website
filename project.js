@@ -152,3 +152,44 @@ function removeFromBasket(type, id) {
       console.log(error);
     });
 }
+// Filter dishes by food type
+document.addEventListener("DOMContentLoaded", () => {
+  const filterButton = document.getElementById("filter-button");
+
+  filterButton.addEventListener("click", () => {
+    const foodType = document
+      .getElementById("food-type-input")
+      .value.toLowerCase();
+    filterByFoodType(foodType);
+  });
+});
+
+// Function to filter dishes by food type
+function filterByFoodType(type) {
+  const containers = [
+    "rice-container",
+    "pizza-container",
+    "ugali-container",
+    "pasta-container",
+    "stew-container",
+    "variety-container",
+    "drinks-container",
+  ];
+
+  containers.forEach((containerId) => {
+    const items = document
+      .getElementById(containerId)
+      .querySelectorAll(".item");
+
+    items.forEach((item) => {
+      const nameElement = item.querySelector("h3");
+      const name = nameElement.textContent.toLowerCase();
+
+      if (name.includes(type)) {
+        item.style.display = "block";
+      } else {
+        item.style.display = "none";
+      }
+    });
+  });
+}

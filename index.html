@@ -74,7 +74,21 @@
         </select>
 
         <button id="filter-button">Filter</button>
+        <button id="button" onclick="toggleForm()">Update Information</button>
 
+        <form id="updateForm" style="display: none;">
+            <label for="name">Type of Dish</label>
+            <input type="text" id="updateName" required>
+            <br><br>
+            <label for="price">Price</label>
+            <input type="text" id="updatePrice" required>
+            <br><br>
+            <label for="description">Description</label><br>
+            <textarea id="updateDescription" rows="4" required></textarea>
+            <br><br>
+            <!-- Button to trigger POST request -->
+            <button type="submit">Update</button>
+        </form>
         <h1>Rice Dishes</h1>
         <div id="rice-container"></div>
         <h1>Ugali Dishes</h1>

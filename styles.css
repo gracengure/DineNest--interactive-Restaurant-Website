@@ -112,3 +112,29 @@ audio{
   width: 100px;
   height: auto;
 }
+/* Form and input styles */
+#updateForm,
+.feedback-form {
+  font-weight: bold;
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#food-type-input {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.feedback-form input[type="text"],
+.feedback-form input[type="email"],
+.feedback-form select,
+.feedback-form textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+}
+
+.feedback-form fieldset {
+  border: none;
+}

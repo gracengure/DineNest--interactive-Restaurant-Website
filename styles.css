@@ -68,3 +68,47 @@ ul li a {
     cursor: pointer;
   font-size: 15px;
 }
+/* Text and image styles */
+#first,
+.position {
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+#between{
+  margin-right: 100px;
+  font-weight: bolder;
+  font-size: 25px;
+}
+audio{
+  display: none;
+}
+.welcome-section {
+  display: flex;
+  align-items: center;
+}
+
+.welcome-image {
+  object-fit: contain;
+  width: 810px;
+  height: auto;
+}
+
+.item {
+  font-size: 15px;
+  flex: 0 0 auto;
+  width: 300px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.item:hover {
+  transform: scale(1.05);
+}
+
+.item img {
+  width: 100px;
+  height: auto;
+}

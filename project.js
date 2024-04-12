@@ -260,3 +260,10 @@ document
   .addEventListener("click", function () {
     alert("Submitted Successful!");
   });
+
+
+  document
+  .getElementById("click")
+  .addEventListener("click", function () {
+    alert("Submitted Successful!");
+  });

@@ -37,6 +37,7 @@ To use this project locally:
     .Open the index.html file in your preferred web browser.
 
 Installation Requirements:
+ 
 You are required to have git.
 
 Technologies Used
@@ -53,7 +54,7 @@ Credits
 
 License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License -  Copyright (c) 2018.
   
 Support and contact details
 

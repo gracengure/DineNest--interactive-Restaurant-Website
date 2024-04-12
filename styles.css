@@ -51,14 +51,18 @@ ul li a {
 
 
 #playAudioButton,
-.feedback-form button ,#between {
+.feedback-form button ,#between ,#click{
   border: none;
   background-color: black;
   animation-duration: 2s;
   animation-name: key;
   animation-iteration-count: infinite;
 }
-
+#click{
+  margin-left: 200px;
+  font-size: 20px;
+  padding: 5px;
+}
 #filter-button,
 #submitFeedback {
   background-color: #007BFF;
@@ -170,6 +174,10 @@ audio{
   text-align: center;
   min-height: 100vh;
  background: white url(images/istockphoto-1398357309-1024x1024.jpg);
+}
+#fill{
+  min-height: 50vh;
+  background-color: aquamarine;
 }
 
 #back {

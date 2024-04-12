@@ -49,33 +49,34 @@ ul li a {
   background-color: lime;
 }
 
-
 #playAudioButton,
-.feedback-form button ,#between ,#click{
+.feedback-form button,
+#between,
+#click {
   border: none;
   background-color: black;
   animation-duration: 2s;
   animation-name: key;
   animation-iteration-count: infinite;
 }
-#click{
+#click {
   margin-left: 200px;
   font-size: 20px;
   padding: 5px;
 }
 #filter-button,
 #submitFeedback {
-  background-color: #007BFF;
+  background-color: #007bff;
   color: #ffffff;
   padding: 5px;
   border: none;
-    cursor: pointer;
+  cursor: pointer;
   font-size: 15px;
 }
 /* Text and image styles */
-#first{
+#first {
   font-size: 25px;
-  font-weight:bolder ;
+  font-weight: bolder;
 }
 
 .position {
@@ -83,12 +84,12 @@ ul li a {
   font-weight: bolder;
 }
 
-#between{
+#between {
   margin-right: 100px;
   font-weight: bolder;
   font-size: 25px;
 }
-audio{
+audio {
   display: none;
 }
 .welcome-section {
@@ -173,16 +174,16 @@ audio{
   font-size: 30px;
   text-align: center;
   min-height: 100vh;
- background: white url(images/istockphoto-1398357309-1024x1024.jpg);
+  background: white url(images/istockphoto-1398357309-1024x1024.jpg);
 }
-#fill{
+#fill {
   min-height: 50vh;
   background-color: aquamarine;
 }
 
 #back {
   min-height: 109vh;
-  background-color: #E6F7FF;
+  background-color: #e6f7ff;
 }
 
 .position {

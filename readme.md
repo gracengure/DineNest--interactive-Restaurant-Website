@@ -1,6 +1,7 @@
 DineNest - Interactive Restaurant Website
 
 Welcome to DineNest, an interactive restaurant website where culinary artistry meets unparalleled elegance. This README file provides an overview of the project structure and functionality.
+
 Project Structure
 
     1.index.html: The main HTML file containing the structure of the website.
@@ -12,9 +13,13 @@ Project Structure
 Features
 
     1.Navigation: Navigate through different sections of the website using the navigation menu.
+
     2.Home Section: Learn about DineNest Restaurant, its ambiance, and culinary offerings.
+    
    3. Menu Section: Explore the restaurant's menu categorized into various dishes such as rice, pizza, pasta, etc. Filter menu items based on food type.
+
     4.About Section: Discover more about DineNest Restaurant, its culinary traditions, and passionate chefs.
+
     5.Feedback Section: Share your dining experience by providing feedback through a form. Rate services, food quality, cleanliness, and overall experience. Provide comments and suggestions.
     
 Usage

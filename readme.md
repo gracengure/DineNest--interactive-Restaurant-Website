@@ -1,6 +1,8 @@
-DineNest - Interactive Restaurant Website
+ Project Name: DineNest - Interactive Restaurant Website
 
-Welcome to DineNest, an interactive restaurant website where culinary artistry meets unparalleled elegance. This README file provides an overview of the project structure and functionality.
+Date:12/04/2024
+
+By :Grace Wairimu Ngure.
 
 Project Structure
 
@@ -26,13 +28,16 @@ Features
 
     5.Feedback Section: Share your dining experience by providing feedback through a form. Rate services, food quality, cleanliness, and overall experience. Provide comments and suggestions.
     
-Usage
+Installation
 
 To use this project locally:
 
     .Clone the repository: git clone <repository-url>
    . Place the db.json and routes.json files in the project directory.
     .Open the index.html file in your preferred web browser.
+
+Installation Requirements:
+You are required to have git.
 
 Technologies Used
 
@@ -46,11 +51,14 @@ Credits
    . Audio: "Baridi" by Jay Melody, sourced from AudioJungle, providing the perfect backdrop for our gastronomic journey.
 
 
-  
 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
+  
+Support and contact details
 
 For any questions or inquiries, please contact us at dinenestrestaurant@gmail.com.
 
+https://github.com/gracengure/DineNest--interactive-Restaurant-Website
+ 
 Thank you for visiting DineNest! Enjoy your culinary journey with us. 🍽️

@@ -23,7 +23,9 @@ Features
     2.Home Section: Learn about DineNest Restaurant, its ambiance, and culinary offerings.
 
    3. Menu Section: Explore the restaurant's menu categorized into various dishes such as rice, pizza, pasta, etc. Filter menu items based on food type.
-4. Form Section : This part is set aside to allow  customers to express their orders in details of name and price
+
+4. Form Section : This part is set aside to allow  customers to express their orders in details of name and price.
+
     5.About Section: Discover more about DineNest Restaurant, its culinary traditions, and passionate chefs.
 
     6.Feedback Section: Share your dining experience by providing feedback through a form. Rate services, food quality, cleanliness, and overall experience. Provide comments and suggestions.
@@ -33,7 +35,9 @@ Installation
 To use this project locally:
 
     .Clone the repository: git clone <repository-url>
+
    . Place the db.json and routes.json files in the project directory.
+
     .Open the index.html file in your preferred web browser.
 
 Installation Requirements:
@@ -48,7 +52,10 @@ Technologies Used
     .JSON
 
 Credits
+
    . Images: Curated from the depths of Unsplash and Pixabay, adding visual richness to our website.
+   
+
    . Audio: "Baridi" by Jay Melody, sourced from AudioJungle, providing the perfect backdrop for our gastronomic journey.
 
 

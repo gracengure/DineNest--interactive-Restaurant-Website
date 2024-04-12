@@ -69,7 +69,11 @@ ul li a {
   font-size: 15px;
 }
 /* Text and image styles */
-#first,
+#first{
+  font-size: 25px;
+  font-weight:bolder ;
+}
+
 .position {
   font-size: 20px;
   font-weight: bolder;
@@ -90,7 +94,7 @@ audio{
 
 .welcome-image {
   object-fit: contain;
-  width: 810px;
+  width: 800px;
   height: auto;
 }
 

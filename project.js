@@ -43,6 +43,7 @@ fetch("http://localhost:3000/Drinks")
   .then((drinksData) => {
     displayDrinks(drinksData, "drinks-container");
   });
+
 // Display dishes in the specified container
 function displayDishes(dishes, containerId) {
   const container = document.getElementById(containerId); // Get the container element
@@ -92,8 +93,10 @@ function displayDishes(dishes, containerId) {
     dishDiv.appendChild(removeButton);
 
     container.appendChild(dishDiv); // Append the dish div to the container
-  });}
-  // Display drinks in the specified container
+  });
+}
+
+// Display drinks in the specified container
 function displayDrinks(drinks, containerId) {
   const container = document.getElementById(containerId);
 
@@ -137,10 +140,12 @@ function displayDrinks(drinks, containerId) {
     container.appendChild(drinkDiv);
   });
 }
+
 // Function to add item to basket
 function addToBasket(item) {
   alert(`You have selected: ${item.name}`); // Display an alert with the selected item name
-}/* The DELETE metheod that delete items from the  server*/
+}
+/* The DELETE metheod that delete items from the  server*/
 // Function to remove item from basket
 function removeFromBasket(type, id) {
   return fetch(`http://localhost:3000/${type}/${id}`, {
@@ -152,6 +157,7 @@ function removeFromBasket(type, id) {
       console.log(error);
     });
 }
+
 // Filter dishes by food type
 document.addEventListener("DOMContentLoaded", () => {
   const filterButton = document.getElementById("filter-button");
@@ -193,6 +199,7 @@ function filterByFoodType(type) {
     });
   });
 }
+
 // Initialize audio and button functionality
 document.addEventListener("DOMContentLoaded", function () {
   const audio = document.querySelector("audio"); // Select the audio element
@@ -212,6 +219,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 });
+
 function updateInformation() {
   const name = document.getElementById("updateName").value;
   const price = document.getElementById("updatePrice").value;
